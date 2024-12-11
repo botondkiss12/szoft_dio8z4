@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Who Wants to Be a Millionaire</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Who Wants to Be a Millionaire</h1>
+            <div class="weather-info"></div>
+            <button class="dev-toggle">Developer Mode</button>
+        </div>
+    </header>
+    <main>
+        <section class="intro-section">
+            <h2>Select Game Mode</h2>
+            <div class="mode-selection">
+                <button class="mode-btn normal-mode">Normal Mode (Local DB)</button>
+                <button class="mode-btn expert-mode">Expert Mode (OpenTrivia DB)</button>
+            </div>
+        </section>
+
+        <section class="quiz-section hidden">
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span class="question-count"></span>
+                    <span class="score-info"></span>
+                </div>
+                <button class="restart-btn">Restart</button>
+            </div>
+            <div class="quiz-container">
+                <div class="question-container"></div>
+                <div class="answers-container"></div>
+            </div>
+        </section>
+
+        <section class="result-section hidden">
+            <h2>Your Final Score</h2>
+            <p class="final-score"></p>
+            <button class="play-again-btn">Play Again</button>
+        </section>
+
+        <section class="dev-section hidden">
+            <h2>Developer Mode</h2>
+            <div class="dev-tables">
+                <h3>All Local Questions</h3>
+                <button class="load-all-questions-btn">Load All Questions</button>
+                <table class="questions-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Question</th>
+                            <th>Correct</th>
+                            <th>Wrong1</th>
+                            <th>Wrong2</th>
+                            <th>Wrong3</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody class="questions-tbody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="dev-forms">
+                <div class="add-question-form">
+                    <h3>Add New Question</h3>
+                    <input type="text" class="new-question-text" placeholder="Question text">
+                    <input type="text" class="new-correct-answer" placeholder="Correct answer">
+                    <input type="text" class="new-wrong1" placeholder="Wrong answer 1">
+                    <input type="text" class="new-wrong2" placeholder="Wrong answer 2">
+                    <input type="text" class="new-wrong3" placeholder="Wrong answer 3">
+                    <input type="number" class="new-category-id" placeholder="Category ID">
+                    <button class="add-question-btn">Add Question</button>
+                </div>
+                <div class="modify-question-form">
+                    <h3>Modify Question</h3>
+                    <input type="number" class="mod-id" placeholder="ID to modify">
+                    <input type="text" class="mod-question-text" placeholder="New question text">
+                    <input type="text" class="mod-correct-answer" placeholder="New correct answer">
+                    <input type="text" class="mod-wrong1" placeholder="New wrong answer 1">
+                    <input type="text" class="mod-wrong2" placeholder="New wrong answer 2">
+                    <input type="text" class="mod-wrong3" placeholder="New wrong answer 3">
+                    <button class="modify-question-btn">Modify</button>
+                </div>
+                <div class="delete-question-form">
+                    <h3>Delete Question</h3>
+                    <input type="number" class="del-id" placeholder="ID to delete">
+                    <button class="delete-question-btn">Delete</button>
+                </div>
+                <div class="modify-category-form">
+                    <h3>Modify Category</h3>
+                    <input type="number" class="cat-id" placeholder="Category ID">
+                    <input type="text" class="cat-name" placeholder="New category name">
+                    <button class="modify-category-btn">Modify</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

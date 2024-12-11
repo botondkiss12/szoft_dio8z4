@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "hDqfBax9FdXW0uQRfd2H+EwbCWRxGkMI8hJjPYqPJxA=",
+  "Source": "ZH3",
+  "BasePath": "_content/ZH3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ZH3\\wwwroot",
+      "Source": "ZH3",
+      "ContentRoot": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\",
+      "BasePath": "_content/ZH3",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\index.html",
+      "SourceId": "ZH3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\",
+      "BasePath": "_content/ZH3",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\script.js",
+      "SourceId": "ZH3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\",
+      "BasePath": "_content/ZH3",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\style.css",
+      "SourceId": "ZH3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\small\\Downloads\\ZH3\\ZH3\\ZH3\\wwwroot\\",
+      "BasePath": "_content/ZH3",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZH3
+build_property.RootNamespace = ZH3
+build_property.ProjectDir = C:\Users\small\Source\Repos\botondkiss12\szoft_dio8z4\ZH3\ZH3\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\small\Source\Repos\botondkiss12\szoft_dio8z4\ZH3\ZH3
+build_property._RazorSourceGeneratorDebug = 
